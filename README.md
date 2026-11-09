@@ -7,7 +7,7 @@ A pretrained 135M language model (`SmolLM2-135M`) used as a classifier, adapted 
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 ## Run
 # Run your notebooks or scripts sequentially:
