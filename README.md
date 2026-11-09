@@ -23,6 +23,12 @@ Total time: ~15-20 minutes for the full verification and sweep runs.
 ## Prediction (Written before running the sweep)
 Rank 16 is expected to closely match full fine-tuning performance because text classification tasks on small models typically exhibit low intrinsic dimension, whereas rank 1 will likely have limited subspace capacity to capture all emotional nuances.
 
+## Figures
+
+### Accuracy vs. Trainable Parameters
+![Accuracy vs Trainable Parameters](accuracy_plot.png)
+*Figure: Test set accuracy plotted against the number of trainable parameters (log scale) for zero-shot, LoRA ranks ($r=1, 4, 16$), and full fine-tuning.*
+
 ## Results
 Zero-Shot Accuracy: ~0.326 (Chance: 0.167)
 Verification: Custom LoRA layer perfectly matched PEFT parameter counts (460,800 trainable parameters at rank 8).
